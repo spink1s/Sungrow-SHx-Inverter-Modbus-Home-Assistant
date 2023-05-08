@@ -1124,7 +1124,7 @@ modbus:
         scan_interval: 600
 
       - name: Total PV generation
-        unique_id: sg_total_pv_generation
+        unique_id: sg_total_pv_generation_spink1s
         slave: !secret sungrow_modbus_slave
         address: 13002 # reg 13003
         input_type: input
@@ -1362,7 +1362,7 @@ modbus:
         scan_interval: 600
 
       - name: Total battery discharge
-        unique_id: sg_total_battery_discharge
+        unique_id: sg_total_battery_discharge_spink1s
         slave: !secret sungrow_modbus_slave
         address: 13026 # reg 13027
         input_type: input
@@ -1462,7 +1462,7 @@ modbus:
         scan_interval: 600
 
       - name: Total imported energy
-        unique_id: sg_total_imported_energy
+        unique_id: sg_total_imported_energy_spink1s
         slave: !secret sungrow_modbus_slave
         address: 13036 # reg 13037
         input_type: input
@@ -1510,7 +1510,7 @@ modbus:
         scan_interval: 600
 
       - name: Total battery charge
-        unique_id: sg_total_battery_charge
+        unique_id: sg_total_battery_charge_spink1s
         slave: !secret sungrow_modbus_slave
         address: 13040 # reg 13041
         input_type: input
@@ -1540,7 +1540,7 @@ modbus:
         scan_interval: 600
 
       - name: Total exported energy
-        unique_id: sg_total_exported_energy
+        unique_id: sg_total_exported_energy_spink1s
         slave: !secret sungrow_modbus_slave
         address: 13045 # reg 13046
         input_type: input
